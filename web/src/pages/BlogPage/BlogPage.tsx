@@ -1,19 +1,13 @@
-// import { Link, routes } from '@redwoodjs/router'
 import { Metadata } from '@redwoodjs/web'
 
 const BlogPage = () => {
   return (
     <>
-      <Metadata title="Blog" description="Blog page" />
+      <Metadata title="Welcome" description="The first page of the app" />
 
-      <h1>BlogPage</h1>
-      <p>
-        Find me in <code>./web/src/pages/BlogPage/BlogPage.tsx</code>
-      </p>
-      {/*
-          My default route is named `blog`, link to me with:
-          `<Link to={routes.blog()}>Blog</Link>`
-      */}
+      <div className="flex flex-col gap-4">
+        <h1>Welcome to my website! Here you can find my blog posts.</h1>
+      </div>
     </>
   )
 }
